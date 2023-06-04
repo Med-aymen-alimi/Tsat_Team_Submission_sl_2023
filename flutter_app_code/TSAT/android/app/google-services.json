@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1072453716869",
+    "firebase_url": "https://tsat-top-100-default-rtdb.firebaseio.com",
+    "project_id": "tsat-top-100",
+    "storage_bucket": "tsat-top-100.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072453716869:android:1dd4e70f1e57ef8af752ec",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDun2eV0Jn1lQ2fo0LT3hrtDdwjSd69Rw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

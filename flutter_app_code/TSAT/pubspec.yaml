@@ -1,0 +1,206 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  charts_flutter: ^0.12.0
+  
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.4
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/design/images/wifi.png
+    - assets/design/images/shape.png
+    - assets/design/images/ellipse-483.png
+    - assets/design/images/battery-three-quarters.png
+    - assets/design/images/eclipse.png
+    - assets/design/images/signal.png
+    - assets/design/images/logo1.png
+    - assets/design/images/ellipse-483-yQZ.png
+    - assets/design/images/ellipse-486.png
+    - assets/design/images/line-5.png
+    - assets/design/images/eclipse-oBj.png
+    - assets/design/images/wifi-7N5.png
+    - assets/design/images/eclipse-Ywo.png
+    - assets/design/images/battery-three-quarters-kFX.png
+    - assets/design/images/line-6.png
+    - assets/design/images/wifi-pjo.png
+    - assets/design/images/signal-B4Z.png
+    - assets/design/images/shape-QK7.png
+    - assets/design/images/eye.png
+    - assets/design/images/wifi-cDT.png
+    - assets/design/images/signal-LkM.png
+    - assets/design/images/signal-oU9.png
+    - assets/design/images/shape-SYM.png
+    - assets/design/images/eye-jWm.png
+    - assets/design/images/signal-NEh.png
+    - assets/design/images/wifi-iUu.png
+    - assets/design/images/line-6-Tcq.png
+    - assets/design/images/wifi-cmj.png
+    - assets/design/images/humaaans-standing-19.png
+    - assets/design/images/ellipse-484.png
+    - assets/design/images/plus-circle.png
+    - assets/design/images/ellipse-484-nVb.png
+    - assets/design/images/signal-CWh.png
+    - assets/design/images/shape-4Tf.png
+    - assets/design/images/line-5-XNV.png
+    - assets/design/images/undrawaccessaccountre8spm-1.png
+    - assets/design/images/ellipse-482.png
+    - assets/design/images/line-6-yLh.png
+    - assets/design/images/tick.png
+    - assets/design/images/wifi-keq.png
+    - assets/design/images/eclipse-MbK.png
+    - assets/design/images/shape-c1T.png
+    - assets/design/images/eclipse-S4u.png
+    - assets/design/images/battery-three-quarters-wQy.png
+    - assets/design/images/wifi-93B.png
+    - assets/design/images/battery-three-quarters-PxR.png
+    - assets/design/images/signal-79f.png
+    - assets/design/images/signal-ZdF.png
+    - assets/design/images/battery-three-quarters-c5j.png
+    - assets/design/images/siren-1.png
+    - assets/design/images/line-5-L85.png
+    - assets/design/images/line-5-R89.png
+    - assets/design/images/siren-2.png
+    - assets/design/images/battery-three-quarters-k3F.png
+    - assets/design/images/wifi-Lwf.png
+    - assets/design/images/shape-TLh.png
+    - assets/design/images/map-1.png
+    - assets/design/images/information-2.png
+    - assets/design/images/information-4.png
+    - assets/design/images/information-3.png
+    - assets/design/images/information-1.png
+    - assets/design/images/information-4-CHK.png
+    - assets/design/images/wifi-Zuf.png
+    - assets/design/images/battery-three-quarters-qjs.png
+    - assets/design/images/battery-three-quarters-Qfo.png
+    - assets/design/images/shape-sJM.png
+    - assets/design/images/battery-three-quarters-173.png
+    - assets/design/images/wifi-5NM.png
+    - assets/design/images/signal-WJH.png
+    - assets/design/images/line-6-r7F.png
+    - assets/design/images/shape-n29.png
+    - assets/design/images/battery-three-quarters-W6y.png
+    - assets/design/images/area-1.png
+    - assets/design/images/line-5-pvh.png
+    - assets/design/images/signal-vZ3.png
+    - assets/design/images/shape-m8y.png
+    - assets/design/images/battery-three-quarters-SzR.png
+    - assets/design/images/group-168.png
+    - assets/design/images/shape-aiZ.png
+    - assets/design/images/analysis-5.png
+    - assets/design/images/analysis-5-mKB.png
+    - assets/design/images/plus-circle-KhP.png
+    - assets/design/images/feedback-1.png
+    - assets/design/images/line-6-bch.png
+    - assets/design/images/signal-NUM.png
+    - assets/design/images/shape-TPs.png
+    - assets/design/images/analysis-5-K8Z.png
+    - assets/design/images/rectangle-273.png
+    - assets/design/images/wifi-87F.png
+    - assets/design/images/rectangle-272.png
+    - assets/design/images/battery-three-quarters-S7w.png
+    - assets/design/images/ellipse-483-bg.png
+    - assets/design/images/shape-xPF.png
+    - assets/design/images/ellipse-483-bg-3VF.png
+    - assets/design/images/ellipse-483-bg-5hP.png
+    - assets/design/images/power-on-1.png
+    - assets/design/images/ellipse-483-bg-G8m.png
+    - assets/design/images/ellipse-485.png
+    - assets/design/images/signal-jnd.png
+    - assets/design/images/ellipse-479-bg.png
+    - assets/design/images/ellipse-483-bg-5hP.png
+    - assets/design/images/ellipse-483-bg-3VF.png
+    - assets/design/images/logo.png
+    - assets/design/images/heirloom-tomatoes.jpg
+    - assets/design/images/tomato1.png
+    - assets/design/images/ellipse-479-bg.png
+
+
+ 
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
